@@ -3,3 +3,35 @@ body{
     font-weight: 200;
     font-style: normal;
 }
+
+ul{
+    list-style: none;
+}
+
+.homeContain{
+    align-items: center;
+    height: 97.75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.homeImg{
+    height: 500px;
+    margin-left: 20px;
+}
+
+.nav{
+    position: absolute;
+    right: 50px;
+}
+
+.nav a{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline;
+    padding: 0 0 0 60px;
+}
