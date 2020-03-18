@@ -78,7 +78,13 @@ body{
     padding-left: 66px;
 }
 
+.box{
+    display:flex; 
+    flex-direction:column; 
+}
+
 .text{
+    height: 70%;
     margin: 40px 175px 10px 175px;
 }
 
@@ -106,4 +112,10 @@ body{
     margin-right: auto;
     padding: 10px 0px 10px 0px;
     width: 30%;
+}
+
+/*FOOTER*/
+.footer{
+    border-top: 2px solid pink;
+    padding: 20px 175px 20px 175px;
 }
