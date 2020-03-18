@@ -86,10 +86,18 @@ body{
     font-size: 19px;
 }
 
+.text ul{
+    list-style: none;
+}
+
 .text ul a{
     text-decoration: none;
     color: black;
     font-size: 19px;
+}
+
+.text ul a:hover{
+    color: pink;
 }
 
 .gallery img{
