@@ -19,11 +19,17 @@
     padding: 17px 15.5px;
     text-align: center;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav li a:hover{
+    color: #f6b4d1;
 }
 
 .navLogo{
     height: 50px;
     float: left;
+    margin-left: 80px;
 }
 
 .nav li.navText{
@@ -31,7 +37,7 @@
 }
 
 .navTextBox{
-    margin-right: 50px;
+    margin-right: 160px;
 }
 
 @media screen and (max-width: 800px){
@@ -63,6 +69,11 @@
     color: black;
     font-size: 35px;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.homeBox a:hover{
+    color: #f6b4d1;
 }
 
 
@@ -84,6 +95,11 @@ body{
     text-decoration: none;
     font-size: 20px;
     margin-top: 20px;
+    transition: 0.3s;
+}
+
+.writing:hover{
+    color: #f6b4d1;
 }
 
 .box{
@@ -92,7 +108,7 @@ body{
 }
 
 .text{
-    margin: 40px 175px 10px 175px;
+    margin: 40px 220px 10px 175px;
 }
 
 .text p{
@@ -127,6 +143,7 @@ body{
     text-decoration: none;
     color: black;
     font-size: 25px;
+    transition: 0.3s;
 }
 
 .textSticky ul a:hover{
@@ -154,7 +171,7 @@ body{
 }
 
 .footer a img{
-    margin-left: 10px;
+    margin-right: 50px;
     margin-top: 45px;
     float: right;
     height: 5vh;
