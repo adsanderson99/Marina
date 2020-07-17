@@ -49,27 +49,22 @@
     justify-content: center;
 }
 
+.homeBox{
+    display: flex;
+    flex-direction: column;
+}
+
 .homeImg{
     height: 500px;
     margin-left: 20px;
 }
 
-.homeNav{
-    position: absolute;
-    left: 50px;
-}
-
-.homeNav a{
+.homeBox a{
     color: black;
     font-size: 35px;
     text-decoration: none;
-    padding: 14px 14px;
 }
 
-.homeNav li{
-    display: inline;
-    padding: 14px 16px;
-}
 
 /*BODY*/
 html, body{
