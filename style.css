@@ -90,6 +90,13 @@ body{
     margin: 0;
 }
 
+.aboutImg{
+    width: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .writing{
     color: black;
     text-decoration: none;
@@ -129,6 +136,7 @@ body{
     margin: 40px 175px 10px 175px;
     min-height: 100%;
     margin-bottom: -250px;
+    
 }
 
 .textSticky p{
