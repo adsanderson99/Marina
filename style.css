@@ -1,3 +1,53 @@
+/*HOME*/
+
+.homeContainDesktop{
+    align-items: center;
+    height: 97.75vh;
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+}
+
+.homeContainMobile{
+    align-items: center;
+    height: 97.75vh;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.homeBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.homeImg{
+    height: 500px;
+    margin-left: 20px;
+}
+
+.homeBox a{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.homeBox a:hover{
+    color: #f6b4d1;
+}
+
+@media screen and (max-width: 600px) {
+    .homeContainDesktop {
+      visibility: hidden;
+    }
+
+    .homeContainMobile{
+        visibility: visable;
+    }
+}
+
+
 /*NAV*/
 
 .nav{
@@ -45,37 +95,6 @@
         visibility: visible;
     }
 }
-
-/*HOME*/
-
-.homeContain{
-    align-items: center;
-    height: 97.75vh;
-    display: flex;
-    justify-content: center;
-}
-
-.homeBox{
-    display: flex;
-    flex-direction: column;
-}
-
-.homeImg{
-    height: 500px;
-    margin-left: 20px;
-}
-
-.homeBox a{
-    color: black;
-    font-size: 35px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.homeBox a:hover{
-    color: #f6b4d1;
-}
-
 
 /*BODY*/
 html, body{
